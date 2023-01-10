@@ -1,0 +1,231 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+}
+
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+               -1px -1px 0 #000;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid-gow{
+  padding: 7% 15%;
+  background-image: url(https://wallpapercave.com/wp/wp1837508.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.coloured-section{
+  background-color: #181D31;
+  color: #fff;
+}
+
+.footer-section{
+  background-color: #fff;
+}
+
+.white-section{
+  background-image: url(https://rare-gallery.com/mocahbig/391551-god-of-war-ragnarok-playstation-game-4k-pc-wallpaper.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+p{
+  color: #3D1766;
+}
+
+/* Navigation Bar  */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Montserrat";
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.6rem;
+  font-family: "Montserrat-Light";
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+               -1px -1px 0 #000;
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature Section */
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color: #181D31;
+}
+
+ .testimonial-text{
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+.testimonial-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.Rohit-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+}
+
+#press{
+  background-color: #181D31;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  background-color: #181D31;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta section */
+
+.cta-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.footer-Copyright{
+  margin: auto;
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.footer-Copyright-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+/* Card Section */
+.card{
+  background-color: #B4CDE6;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: black;
+  border-radius: 0.3rem;
+}
+
+.card-header{
+  background-color: #B4CDE6;
+}
